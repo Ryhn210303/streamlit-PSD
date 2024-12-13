@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sklearn
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
